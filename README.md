@@ -10,4 +10,7 @@
 
 ### job.sh
 
-定时任务，包括更新chnroute
+定时任务
+
+### CRON
+0 0 20 * * FRI /root/scripts/job.sh

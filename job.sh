@@ -12,4 +12,4 @@
 /root/scripts/update_chnroute_txt.sh
 
 ## aria2 tracker更新
-/root/scripts/trackers-list-aria2.sh
+/root/scripts/update_aria2_tracker.sh

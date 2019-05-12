@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/bin/wget -O- 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > /root/scripts/chnroute.txt
+/bin/wget -O- https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt > /root/scripts/chnroute.txt

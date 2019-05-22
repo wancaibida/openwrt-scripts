@@ -1,15 +1,15 @@
 #!/bin/sh
 
-## gfwlist
+## update dnsmasq dns no proxy
 /root/scripts/update_dnsmasq_gfwlist.sh
 
-## 定时更新广告过滤列表
+## update dnsmasq ad block
 /root/scripts/update_dnsmasq_adblock.sh
 
 ## /etc/init.d/dnsmasq restart
 
-## 更新chnroute
+## update chnroute
 /root/scripts/update_chnroute_txt.sh
 
-## aria2 tracker更新
-/root/scripts/update_aria2_tracker.sh
+## update aria2 tracker 
+#/root/scripts/update_aria2_tracker.sh

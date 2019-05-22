@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## update dnsmasq dns no proxy
-/root/scripts/update_dnsmasq_gfwlist.sh
+/root/scripts/update_dnsmasq_china.sh
 
 ## update dnsmasq ad block
 /root/scripts/update_dnsmasq_adblock.sh

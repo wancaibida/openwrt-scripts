@@ -9,7 +9,7 @@
 ## /etc/init.d/dnsmasq restart
 
 ## update chnroute
-/root/scripts/update_chnroute_txt.sh
+/root/scripts/update_china_ip_list.sh
 
 ## update aria2 tracker 
 #/root/scripts/update_aria2_tracker.sh
